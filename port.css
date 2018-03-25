@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a{
+	float : left;
+}
+
+#l{
+	font-family: 'Indie Flower', cursive;
+
+}
+
+#ab{
+	font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+   font-size: 2.5em
+}
+
+#ab2{
+	font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-size: 3em
+}
+
+#ab3{
+	font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-size: 2em
+}
+
+#ab4{font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-size: 2em
+}
+
+img{
+	width:30%;
+	height:auto;
+}
+
+li a {
+    display: block;
+    color: #f9db9f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Indie Flower' cursive;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#el{
+	width:10%;
+}
+
+
+@media screen and (max-width: 600px) {
+   img{
+	width:100%;
+	height:auto;
+   }
+   li a{
+	float : none;
+}
+body{
+	background-color: #e0ebff
+}
+}
+
+
+
+
+.listing{
+	display:flex;
+	flex-wrap: row wrap;
+	width: 100%;
+}
